@@ -6,7 +6,8 @@ on:
     - cron: 0 18 * * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  # REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: master
   CONFIG_FILE: configs/rockchip.config
   EXTRA_CONFIG: configs/extra.config
